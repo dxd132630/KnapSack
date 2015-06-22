@@ -12,47 +12,46 @@ sudo apt-get update
 sudo apt-get dist-upgrade -y
 
 #install editing tools
-sudo apt-get install vim
-sudo apt-get install vim-gnome
-sudo add-apt-repository ppa:openshot.developers/ppa
-sudo apt-get update
-sudo apt-get install openshot openshot-doc
+sudo apt-get install -y vim
+sudo apt-get install -y vim-gnome
+sudo add-apt-repository -y ppa:openshot.developers/ppa
+sudo apt-get -y update
+sudo apt-get install -y openshot openshot-doc
 
 
 #installing ubuntu-restricted-extras
-sudo apt-get install ubuntu-restricted-extras
+sudo apt-get install -y ubuntu-restricted-extras
 
 #important installation
-sudo apt-get install eclipse
+sudo apt-get install -y eclipse
 	#remove existing jdk
-sudo apt-get purge openjdk*
+sudo apt-get purge -y openjdk*
 	#install jdk
-sudo apt-get install openjdk-7-jdk
+sudo apt-get install -y openjdk-7-jdk
 
-sudo apt-get install haskell
-sudo apt-get install maven
-sudo apt-get install crontab
-sudo apt-get install git
-sudo apt-get install gnome-common
+sudo apt-get install -y haskell
+sudo apt-get install -y maven
+sudo apt-get install -y crontab
+sudo apt-get install -y git
+sudo apt-get install -y gnome-common
 
 #installing Big-data essentials
-sudo apt-get install spark
-sudo apt-get install sbt
+sudo apt-get install -y spark
+sudo apt-get install -y sbt
 
 #installing other miscellaneous softwares
-sudo apt-get install filezilla
+sudo apt-get install -y filezilla
 	#install archive manager
-sudo apt-get install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller
-sudo apt-get install skype
-sudo apt-get 
-sudo apt-get install tomcat
-sudo apt-get install gpg
-sudo apt-get install pgp
-sudo apt-get install transmission
-sudo apt-get install openssh
-sudo apt-get install gtk-doc
-sudo apt-get install virtualbox-.
-sudo apt-get install libdvdread
+sudo apt-get install -y unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract file-roller
+sudo apt-get install -y skype
+sudo apt-get install -y tomcat
+sudo apt-get install -y gpg
+sudo apt-get install -y pgp
+sudo apt-get install -y transmission
+sudo apt-get install -y openssh
+sudo apt-get install -y gtk-doc
+sudo apt-get install -y virtualbox-.
+sudo apt-get install -y libdvdread
 sudo apt-get install -y libnss-d:i
 sudo apt-get install -y libxss:i
 
@@ -61,11 +60,11 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo apt-get update -y
 sudo apt-get install -y google-chrome-stable
 
-sudo apt-get install octave
-sudo apt-get install gccgo-go
-sudo apt-get install xclip
-sudo apt-get install dropbox
-sudo apt-get install conkey
+sudo apt-get install -y octave
+sudo apt-get install -y gccgo-go
+sudo apt-get install -y xclip
+sudo apt-get install -y dropbox
+sudo apt-get install -y conkey
 
 #Setting the SSH with git account
 #defining the global variables of git account
