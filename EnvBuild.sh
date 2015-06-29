@@ -1,7 +1,8 @@
 
-#	@Author      : Deepti Deshpande
-#	@Description : Build the environment after new Linux OS distribution installation
-#	@Date 	     : June 7,2015
+#	@Author      		: Deepti Deshpande
+#	@Description 		: Build the environment after new Linux OS distribution installation
+#	@Date 	     		: June 7,2015
+# 	@Linux distribution     : Linux distribution- Debian
 
 #!/bin/bash
 
