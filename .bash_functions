@@ -1,3 +1,7 @@
+#source it in .bashrc
+[[ -f ~/.bash_functions ]] && . ~/.functions
+
+
 # edit the selected bash config file
 function editbash {
     echo $1
