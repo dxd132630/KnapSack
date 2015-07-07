@@ -91,3 +91,6 @@ git status
 git add *
 git commit
 git push
+
+sudo apt-get install zsh
+
