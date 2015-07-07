@@ -99,4 +99,5 @@ wget https://github.com/dxd132630/DeeptiDeshpande/blob/master/.zshrc_functions
 source ./zshrc_alias >> .zshrc
 source ./zshrc_functions >> .zshrc
 
-
+#text editor
+sudo apt-get install nedit
