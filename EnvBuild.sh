@@ -92,5 +92,11 @@ git add *
 git commit
 git push
 
+#installing zsh and staging .zshrc_alias and .zshrc_functions
 sudo apt-get install zsh
+wget https://github.com/dxd132630/DeeptiDeshpande/blob/master/.zshrc_alias
+wget https://github.com/dxd132630/DeeptiDeshpande/blob/master/.zshrc_functions
+source ./zshrc_alias >> .zshrc
+source ./zshrc_functions >> .zshrc
+
 
