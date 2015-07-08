@@ -63,6 +63,7 @@ sudo apt-get install -y google-chrome-stable
 
 sudo apt-get install -y octave
 sudo apt-get install -y gccgo-go
+sudo apt-get install -y julia
 sudo apt-get install -y xclip
 sudo apt-get install -y dropbox
 sudo apt-get install -y conkey
