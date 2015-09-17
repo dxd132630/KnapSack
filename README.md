@@ -1,4 +1,4 @@
 # DeeptiDeshande
 @Author : Deepti Deshpande
-@Personalized website using Github.io
+@My knapsack filled with some valuable scripts for system setup,env-build and configuration ;)
 
