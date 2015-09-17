@@ -102,3 +102,9 @@ source ./zshrc_functions >> .zshrc
 
 #text editor
 sudo apt-get install nedit
+
+# Finding if Hyper-threading is enabled 
+lscpu | grep -i -E  "^CPU\(s\):|core|socket" 
+
+cat /proc/cpuinfo | grep -E "cpu cores|siblings|physical id" |xargs -n 11 echo |sort |uniq
+
