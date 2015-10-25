@@ -108,3 +108,5 @@ lscpu | grep -i -E  "^CPU\(s\):|core|socket"
 
 cat /proc/cpuinfo | grep -E "cpu cores|siblings|physical id" |xargs -n 11 echo |sort |uniq
 
+sudo apt-get install terminator
+
