@@ -110,3 +110,6 @@ cat /proc/cpuinfo | grep -E "cpu cores|siblings|physical id" |xargs -n 11 echo |
 
 sudo apt-get install terminator
 
+# Latex installation
+sudo apt-get install texlive-latex-base
+
